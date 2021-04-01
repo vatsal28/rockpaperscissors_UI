@@ -60,7 +60,7 @@ if(gameresult=="You win!"){
 const scorediv = document.querySelector("#score");
 const who_won = document.querySelector('#win_lose');
 who_won.textContent = gameresult;
-scorediv.textContent = "Computer score " + compwins + " User score " + userwins;
+scorediv.textContent = "Computer's score: " + compwins + " Your score: " + userwins;
 // scorediv.appendChild(content);
 if(userwins==5){
     compwins=0;

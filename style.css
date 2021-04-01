@@ -1,12 +1,43 @@
-#buttons{
-    border: 2px solid black;
+*{
+    font-family: 'Comic Sans MS', sans-serif;
+}
+
+h1{
+    font-size: 60px;
+}
+p{
+    font-size: 40px;
+}
+h3{
+    font-size: 30px;
+}
+body {
+    background-image: url("images/page3.jpg");
+    /* background-color: #cccccc; */
+   } 
+
+div{
     text-align: center;
 }
+
+#scorecontainer{
+    padding: 1%;
+    font-size: 30px;
+    /* border: 2px solid grey; */
+}
+
+#score{
+    margin: 1%;
+}
+#win_lose{
+    font-size: 30px;
+}
+
 #rock{
     background-image: url(images/rock.png);
     margin:2%;
-    height: 60px;
-    width: 60px;
+    height: 300px;
+    width: 300px;
     /* border: 2px solid grey; */
     border-radius: 20px;;
     text-align: center;
@@ -16,8 +47,8 @@
 #paper{
     background-image: url(images/paper.png);
     margin:2%;
-    height: 60px;
-    width: 60px;
+    height: 300px;
+    width: 300px;
     /* border: 2px solid grey; */
     border-radius: 20px;;
     text-align: center;
@@ -27,8 +58,8 @@
 #scissors{
     background-image: url(images/scissors.png);
     margin:2%;
-    height: 60px;
-    width: 60px;
+    height: 300px;
+    width: 300px;
     /* border: 2px solid grey; */
     border-radius: 20px;;
     text-align: center;
