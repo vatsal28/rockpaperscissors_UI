@@ -1,0 +1,36 @@
+#buttons{
+    border: 2px solid black;
+    text-align: center;
+}
+#rock{
+    background-image: url(images/rock.png);
+    margin:2%;
+    height: 60px;
+    width: 60px;
+    /* border: 2px solid grey; */
+    border-radius: 20px;;
+    text-align: center;
+    cursor: pointer;
+}
+
+#paper{
+    background-image: url(images/paper.png);
+    margin:2%;
+    height: 60px;
+    width: 60px;
+    /* border: 2px solid grey; */
+    border-radius: 20px;;
+    text-align: center;
+    cursor: pointer;
+}
+
+#scissors{
+    background-image: url(images/scissors.png);
+    margin:2%;
+    height: 60px;
+    width: 60px;
+    /* border: 2px solid grey; */
+    border-radius: 20px;;
+    text-align: center;
+    cursor: pointer;
+}
